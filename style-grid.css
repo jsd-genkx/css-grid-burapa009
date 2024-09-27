@@ -1,8 +1,17 @@
 /* exercise 1 */
-
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 10px;
+    }
 /* exercise 2 */
 
 /* exercise 3 */
+    .item item-1{
+        grid-column: span 10;
+    }
 
 /* exercise 4 */
 
